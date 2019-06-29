@@ -4,12 +4,16 @@ This repository is intended for building the functionalities in Drupal8 for thre
 ## Pre-requisites:
 Moderate or expert Drupal 8 knowledge involving experience with Drupal modules, PHP, Contenta API and React. This module will be built with Drupal 8 methods (all of the logic and functionality). 
 
+1. Need to get Drupal 7 to Drupal 8 Client & Service Provider Experience set up for when logged in, including but not limited to roles, and backend client registrations. This will consist of using Contenta to connect Python app to Drupal 8
+
 ## What is the goal of these tasks?
-(1) To build functionality within the Drupal framework to register clients using a file using Contenta API
+(1) Migrate from Drupal 7 to Drupal 8, prioritizing the Service Provider, Client and additional roles
 
-(2) To build functionality within the Appt|Event Reminder tool to allow the service provider to upload and process a file
+(2) Set up Contenta, to provide an API interface for frontend and external backend technologies outside of Drupal
 
-(3) To build functionality within the Check-In tool to allow for the service provider to download a file, by interacting with an API endpoint
+(3) Build functionality within the Drupal framework to register clients by reading from a CSV file provided by a Python app, by utilizing Contenta to expose a Drupal POST API
+
+(4) Build functionality within the Check-In tool to allow for the service provider to download the report file (Excel XLSX), by interacting with AWS S3 (Data Lake) through an API endpoint provided by AWS API Gateway (if provided pro-bono)
 
 ## Strategy
 (1)
