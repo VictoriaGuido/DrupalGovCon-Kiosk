@@ -1,12 +1,15 @@
 # DrupalGovCon-Kiosk
-This repository is intended for building the functionality in Drupal8 for the primary purpose of querying (in Drupal) the check-in report (XLSX) from AWS S3 for respective service providers (AWS -> Drupal)
+This repository is intended for building the functionalities in Drupal8 for three tracks- client registration, advancing the Appointment|Reminder tool, and advancing the Check-In tool
 
 ## Pre-requisites:
 Moderate or expert Drupal 8 knowledge involving experience with Drupal modules, PHP, Contenta API and React. This module will be built with Drupal 8 methods (all of the logic and functionality). 
 
 ## What is the goal of these tasks?
-(1) To build functionality within the Drupal framework to retrieve the appropriate .xlsx file report from AWS S3 by interfacing with an established REST API
-(2)
+(1) To build functionality within the Drupal framework to register clients using a file using Contenta API
+
+(2) To build functionality within the Appt|Event Reminder tool to allow the service provider to upload and process a file
+
+(3) To build functionality within the Check-In tool to allow for the service provider to download a file, by interacting with an API endpoint
 
 ## Strategy
 (1)
