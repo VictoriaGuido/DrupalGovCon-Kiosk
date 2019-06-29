@@ -4,8 +4,6 @@ This repository is intended for building the functionalities in Drupal8 for thre
 ## Pre-requisites:
 Moderate or expert Drupal 8 knowledge involving experience with Drupal modules, PHP, Contenta API and React. This module will be built with Drupal 8 methods (all of the logic and functionality). 
 
-1. Need to get Drupal 7 to Drupal 8 Client & Service Provider Experience set up for when logged in, including but not limited to roles, and backend client registrations. This will consist of using Contenta to connect Python app to Drupal 8
-
 ## What is the goal of these tasks?
 (1) Migrate from Drupal 7 to Drupal 8, prioritizing the Service Provider, Client and additional roles
 
