@@ -15,8 +15,10 @@ Moderate or expert Drupal 8 knowledge involving experience with Drupal modules, 
 
 ## Strategy
 (1)
+Prepare the site for Drupal 8 (https://www.drupal.org/docs/8/upgrade/preparing-a-site-for-upgrade-to-drupal-8). Identify the key modules (that include javascript) that impact the content, and are critical to proper interaction with the users.  Then check to see if it is on the latest version and if a D8 version exists. Then catalog the content types and views and prioritize what must get moved, which is almost a data cleaning process.
 
 (2)
+Set up ContentaCMS, and then manually re-create content on the Contenta Site.
 
 (3)
 Create a button for users whose authenticated role is ____, _____, or ______ and belong to a specific list of service providers.
