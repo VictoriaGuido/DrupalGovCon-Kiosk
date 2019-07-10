@@ -1,26 +1,22 @@
 # DrupalGovCon-Kiosk
 This repository is intended for building the functionalities in Drupal8 for three tracks- client registration, advancing the Appointment|Reminder tool, and advancing the Check-In tool.
 
-## Architectural overview:
-One of the main systems involved in HopeOneSource is the Check-In Kiosk, which is simply through a survey on a tablet placed at service provider locations. A Python app has been built, which wraps around various AWS modules, currently providing storage and data manipulation functionalities for data collected from the kiosk.
-
-Two of the below tasks involve transporting data between AWS and Drupal:
-
-(1) Transporting data of clients who are registering using the kiosk, from AWS to Drupal (POST -- only required when a client signs up)
-
-(2) Transporting kiosk reports (Excel) stored in AWS S3 (data lake), from AWS to Drupal (GET -- only required when service provider clicks a button from within Drupal environment)
-
 ## Pre-requisites:
 Moderate or expert Drupal 8 knowledge involving experience with Drupal modules, PHP, Contenta API and React. This module will be built with Drupal 8 methods (all of the logic and functionality). 
 
 ## What is the goal of these tasks?
+### Drupal Migration:
 (1) Migrate from Drupal 7 to Drupal 8, prioritizing the Service Provider, Client and additional roles
 
+### Contenta:
 (2) Set up Contenta, to provide an API interface for frontend and external backend technologies outside of Drupal
 
-(3) Build functionality within the Check-In tool to allow for the service provider to download the report file (Excel XLSX), by interacting with AWS S3 (Data Lake) through an API endpoint provided by AWS API Gateway (if provided pro-bono)
+### Kiosk Interfacing:
+One of the main systems involved in HopeOneSource is the Check-In Kiosk, which is simply through a survey on a tablet placed at service provider locations. A Python app has been built, which wraps around various AWS modules, currently providing storage and data manipulation functionalities for data collected from the kiosk.
 
-(4) Build functionality within the Drupal framework to register clients by reading from a CSV file provided by a Python app, by utilizing Contenta to expose a Drupal POST API
+(3) Build functionality within the Drupal environment to allow for the service provider to download the report file (Excel XLSX) by clicking a button. This would be achieved by interacting with an API endpoint provided by AWS API Gateway (if provided pro-bono), fetching the appropriate file from AWS S3 (Data Lake).
+
+(4) Build functionality within the Drupal environment to register clients by reading from a CSV file provided by the Python app, internally utilizing Contenta to expose a Drupal POST API.
 
 ## Strategy
 (1)
