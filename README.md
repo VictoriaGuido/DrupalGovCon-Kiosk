@@ -6,7 +6,7 @@ Moderate or expert Drupal 8 knowledge involving experience with Drupal modules, 
 
 ## What is the goal of these tasks?
 ### Drupal Migration:
-(1) Migrate from Drupal 7 to Drupal 8, prioritizing the Service Provider, Client and additional roles
+(1) Migrate from Drupal 7 to Drupal 8 (using Drupal Migrate -- https://www.drupal.org/project/migrate), prioritizing the Service Provider, Client and additional roles
 
 ### Contenta:
 (2) Set up Contenta, to provide an API interface for frontend and external backend technologies outside of Drupal
@@ -16,7 +16,7 @@ One of the main systems involved in HopeOneSource is the Check-In Kiosk, which i
 
 (3) Build functionality within the Drupal environment to allow for the service provider to download the report file (Excel XLSX) by clicking a button. This would be achieved by interacting with an API endpoint provided by AWS API Gateway (if provided pro-bono), fetching the appropriate file from AWS S3 (Data Lake).
 
-(4) Build functionality within the Drupal environment to register clients by reading from a CSV file provided by the Python app, internally utilizing Contenta to expose a Drupal POST API.
+(4) Build functionality within the Drupal environment to register clients by reading from a CSV/JSON payload provided by the Python app, internally utilizing Contenta to expose a Drupal POST API.
 
 ## Strategy
 (1)
