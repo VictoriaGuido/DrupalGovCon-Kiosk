@@ -5,7 +5,9 @@ This repository is intended for building the functionalities in Drupal8 for thre
 One of the systems involved in HopeOneSource is a Python app wrapping around various AWS modules, currently providing storage and data manipulation functionalities for data collected from Check-In Kiosks (survey on a tablet placed on a stand).
 
 Two of the below tasks involve transporting data between AWS and Drupal:
+
 (1) Transporting data of clients who are registering using the kiosk, from AWS to Drupal (POST -- only required when a client signs up)
+
 (2) Transporting kiosk reports (Excel) stored in AWS S3 (data lake), from AWS to Drupal (GET -- only required when service provider clicks a button from within Drupal environment)
 
 ## Pre-requisites:
