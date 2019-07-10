@@ -2,7 +2,7 @@
 This repository is intended for building the functionalities in Drupal8 for three tracks- client registration, advancing the Appointment|Reminder tool, and advancing the Check-In tool.
 
 ## Architectural overview:
-One of the systems involved in HopeOneSource is a Python app wrapping around various AWS modules, currently providing storage and data manipulation functionalities for data collected from Check-In Kiosks (survey on a tablet placed on a stand).
+One of the main systems involved in HopeOneSource is the Check-In Kiosk, which is simply through a survey on a tablet placed at service provider locations. A Python app has been built, which wraps around various AWS modules, currently providing storage and data manipulation functionalities for data collected from the kiosk.
 
 Two of the below tasks involve transporting data between AWS and Drupal:
 
