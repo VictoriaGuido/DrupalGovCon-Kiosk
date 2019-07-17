@@ -17,6 +17,9 @@ The interactivity between these systems is key to achieving multiple important f
 
 In both situations, data would be encrypted in transit and at rest. Authentication would be managed using user profile information managed by Drupal.
 
+## Current and Future Architecture Diagram
+Please view 'Architectural Diagram.png' in repo
+
 ## What is the goal of these tasks?
 ### Drupal Migration:
 (1) Migrate from Drupal 7 to Drupal 8 (using Drupal Migrate -- https://www.drupal.org/project/migrate), prioritizing the Service Provider, Client and additional roles
