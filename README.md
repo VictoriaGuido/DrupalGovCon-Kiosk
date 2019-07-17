@@ -54,24 +54,24 @@ Any basic vanilla Drupal 8 environment is acceptable for development.
 }
 
 ### 2. Registration of clients in Drupal
-{
-   "title": "Client",
-   "description": "Client Record",
-   "type": "object",
-   "properties":
-   {
-      "name":
-      {
-         "description": "Client Name",
-         "type": "string"
-      },
-      "phone":
-      {
-         "description": "Client Phone Number",
-         "type": "number"
-      },
-      "birthday":
-      {
+{\
+   "title": "Client",\
+   "description": "Client Record",\
+   "type": "object",\
+   "properties":\
+   {\
+      "name":\
+      {\
+         "description": "Client Name",\
+         "type": "string"\
+      },\
+      "phone":\
+      {\
+         "description": "Client Phone Number",\
+         "type": "number"\
+      },\
+      "birthday":\
+      {\
          "description": "Client Birthdate [MM,DD,YYYY]",
          "type": "array"
       },
