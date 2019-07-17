@@ -4,6 +4,19 @@ This repository is intended for building the functionalities in Drupal8 for thre
 ## Pre-requisites:
 Moderate or expert Drupal 8 knowledge involving experience with Drupal modules, PHP, Contenta API and React. This module will be built with Drupal 8 methods (all of the logic and functionality). 
 
+## Architectural Overview
+HopeOneSource consists of many technological systems, among which are the Drupal 7 and Python app running on AWS (Cloud). Currently, these systems operate independently:
+- The Drupal environment handles user profiles (Service Providers/Clients/others) and functionality modules
+- The Python app handles the check-in kiosk operations, including data ingestion, manipulation, reporting and file sharing.
+
+The interactivity between these systems is key to achieving multiple important functionalities -
+
+1. Adding registration capability from the kiosk- At present, user profiles are created in Drupal only through registration on a Drupal 7 form. Going forward, it is desired to set up a means for new clients to register through the kiosk, which is handled by the Python App running on AWS. To achieve this, we intend to set up an API using Contenta, connecting to the module in Drupal 8 to manage CRUD functionalities. The API will act as an endpoint for incoming JSON payloads containing registration information of new clients , which are provided from the Python app interacting with AWS elements. This payload should be imported and utilized to create new user (client) profiles.
+
+2. Rendering the report for service providers- At present, the kiosk reports are created using the Python app deployed in EC2, and are stored in S3 (Data lake). These reports are accessed by the service providers via a URL link provided by AWS API Gateway. Going forward, it is desired to provide a download functionality within Drupal. This is to be achieved by creating a download button on a Drupal 8 page, and directing the action of the button to request Excel payload from AWS API Gateway by providing the name of the service provider in question based on their role within Drupal and their marching account name. 
+
+In both situations, data would be encrypted in transit and at rest. Authentication would be managed using user profile information managed by Drupal.
+
 ## What is the goal of these tasks?
 ### Drupal Migration:
 (1) Migrate from Drupal 7 to Drupal 8 (using Drupal Migrate -- https://www.drupal.org/project/migrate), prioritizing the Service Provider, Client and additional roles
