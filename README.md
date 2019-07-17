@@ -47,7 +47,7 @@ Any basic vanilla Drupal 8 environment is acceptable for development.
       "name":\
       {\
          "description": "Service Provider",\
-         "type": "string"\
+         "type": "string"
       }\                                                          
    },
    "required": ["name"]\
