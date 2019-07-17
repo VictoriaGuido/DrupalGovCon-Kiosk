@@ -72,45 +72,45 @@ Any basic vanilla Drupal 8 environment is acceptable for development.
       },\
       "birthday":\
       {\
-         "description": "Client Birthdate [MM,DD,YYYY]",
-         "type": "array"
-      },
-      "gender":
-      {
-         "description": "Client Gender",
-         "type": "string"
-      },
-      "registering_org":
-      {
-         "description": "Organization which registered client",
-         "type": "string"
-      },   
-      "location":
-      {
-         "description": "Location coordinates [lat,lon]",
-         "type": "array"
-      },   
-      "services":
-      {
-         "description": "Desired services",
-         "type": "array"
-      },
-      "demographics":
-      {
-         "description": "Client Demographics",
-         "type": "array"
-      },
-      "sleep_loc":
-      {
-         "description": "Sleep Location",
-         "type": "string"
-      },     
-      "unstably_housed":
-      {
-         "description": "Whether client is unstably housed",
-         "type": "boolean"
-      }                                                  
-   },
-   "required": ["name","phone","birthday","gender","registering_org","location","services","demographics","sleep_loc","unstably_housed"] 
+         "description": "Client Birthdate [MM,DD,YYYY]",\
+         "type": "array"\
+      },\
+      "gender":\
+      {\
+         "description": "Client Gender",\
+         "type": "string"\
+      },\
+      "registering_org":\
+      {\
+         "description": "Organization which registered client",\
+         "type": "string"\
+      },\
+      "location":\
+      {\
+         "description": "Location coordinates [lat,lon]",\
+         "type": "array"\
+      },\
+      "services":\
+      {\
+         "description": "Desired services",\
+         "type": "array"\
+      },\
+      "demographics":\
+      {\
+         "description": "Client Demographics",\
+         "type": "array"\
+      },\
+      "sleep_loc":\
+      {\
+         "description": "Sleep Location",\
+         "type": "string"\
+      },\
+      "unstably_housed":\
+      {\
+         "description": "Whether client is unstably housed",\
+         "type": "boolean"\
+      }\                              
+   },\
+   "required": ["name","phone","birthday","gender","registering_org","location","services","demographics","sleep_loc","unstably_housed"]\
 }
 
