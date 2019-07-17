@@ -38,20 +38,20 @@ Any basic vanilla Drupal 8 environment is acceptable for development.
 
 ## API Schemas
 ### 1. Retrieval of check-in reports from AWS (Cloud)
-{
-   "title": "Kiosk Report",
-   "description": "Report File",
-   "type": "object",
-   "properties":
-   {
-      "name":
-      {
-         "description": "Service Provider",
-         "type": "string"
-      }                                                                             
-   },
-   "required": ["name"]   
-}
+{\
+   "title": "Kiosk Report",\
+   "description": "Report File",\
+   "type": "object",\
+   "properties":\
+   {\
+      "name":\
+      {\
+         "description": "Service Provider",\
+         "type": "string"\
+      }/                                                          
+   },/
+   "required": ["name"]/
+}/
 
 ### 2. Registration of clients in Drupal
 {
