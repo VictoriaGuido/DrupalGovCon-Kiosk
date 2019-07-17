@@ -50,7 +50,7 @@ Any basic vanilla Drupal 8 environment is acceptable for development.
          "type": "string"\
       }\                                                          
    },
-   "required": ["name"]
+   "required": ["name"]\
 }
 
 ### 2. Registration of clients in Drupal
