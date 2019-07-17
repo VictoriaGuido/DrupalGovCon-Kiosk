@@ -49,7 +49,7 @@ Any basic vanilla Drupal 8 environment is acceptable for development.
          "description": "Service Provider",\
          "type": "string"
       }                                              
-   },
+   },\
    "required": ["name"]\
 }
 
