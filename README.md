@@ -109,8 +109,8 @@ Any basic vanilla Drupal 8 environment is acceptable for development.
       {\
          "description": "Whether client is unstably housed",\
          "type": "boolean"\
-      }\                              
-   },
+      }                             
+   },/
    "required": ["name","phone","birthday","gender","registering_org","location","services","demographics","sleep_loc","unstably_housed"]\
 }
 
