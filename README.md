@@ -39,7 +39,7 @@ Any basic vanilla Drupal 8 environment is acceptable for development.
 ## API Schemas
 ### 1. Retrieval of check-in reports from AWS (Cloud)
 {\
-   "title": "Kiosk Report",\
+	"title": "Kiosk Report",\
    "description": "Report File",\
    "type": "object",\
    "properties":\
@@ -48,10 +48,10 @@ Any basic vanilla Drupal 8 environment is acceptable for development.
       {\
          "description": "Service Provider",\
          "type": "string"\
-      }/                                                          
-   },/
-   "required": ["name"]/
-}/
+      }\                                                          
+   },\
+   "required": ["name"]\
+}\
 
 ### 2. Registration of clients in Drupal
 {
