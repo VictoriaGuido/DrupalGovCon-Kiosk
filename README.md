@@ -35,3 +35,81 @@ Set up a CRUD module which utilizes an input CSV file to create new user profile
 
 ## Environment
 Any basic vanilla Drupal 8 environment is acceptable for development.
+
+## API Schemas
+### 1. Retrieval of check-in reports from AWS (Cloud)
+{
+   "title": "Kiosk Report",
+   "description": "Report File",
+   "type": "object",
+   "properties":
+   {
+      "name":
+      {
+         "description": "Service Provider",
+         "type": "string"
+      }                                                                             
+   },
+   "required": ["name"]   
+}
+
+### 2. Registration of clients in Drupal
+{
+   "title": "Client",
+   "description": "Client Record",
+   "type": "object",
+   "properties":
+   {
+      "name":
+      {
+         "description": "Client Name",
+         "type": "string"
+      },
+      "phone":
+      {
+         "description": "Client Phone Number",
+         "type": "number"
+      },
+      "birthday":
+      {
+         "description": "Client Birthdate [MM,DD,YYYY]",
+         "type": "array"
+      },
+      "gender":
+      {
+         "description": "Client Gender",
+         "type": "string"
+      },
+      "registering_org":
+      {
+         "description": "Organization which registered client",
+         "type": "string"
+      },   
+      "location":
+      {
+         "description": "Location coordinates [lat,lon]",
+         "type": "array"
+      },   
+      "services":
+      {
+         "description": "Desired services",
+         "type": "array"
+      },
+      "demographics":
+      {
+         "description": "Client Demographics",
+         "type": "array"
+      },
+      "sleep_loc":
+      {
+         "description": "Sleep Location",
+         "type": "string"
+      },     
+      "unstably_housed":
+      {
+         "description": "Whether client is unstably housed",
+         "type": "boolean"
+      }                                                  
+   },
+   "required": ["name","phone","birthday","gender","registering_org","location","services","demographics","sleep_loc","unstably_housed"] 
+}
