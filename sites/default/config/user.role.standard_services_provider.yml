@@ -1,0 +1,9 @@
+uuid: f3c85c14-4377-4eaa-8e22-c676583b816e
+langcode: en
+status: true
+dependencies: {  }
+id: standard_services_provider
+label: 'Standard Services Provider'
+weight: 4
+is_admin: null
+permissions: {  }

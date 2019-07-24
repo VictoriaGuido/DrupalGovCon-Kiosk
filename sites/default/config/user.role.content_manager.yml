@@ -1,0 +1,9 @@
+uuid: a982e05c-1e57-4495-92d6-e17d4d353b21
+langcode: en
+status: true
+dependencies: {  }
+id: content_manager
+label: 'Content Manager'
+weight: 6
+is_admin: null
+permissions: {  }

@@ -1,0 +1,14 @@
+uuid: 884c1417-c959-44bc-9b62-e70de5d60d32
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.cliet
+  module:
+    - user
+id: user_remove_role_action.cliet
+label: 'Remove the Client role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: cliet

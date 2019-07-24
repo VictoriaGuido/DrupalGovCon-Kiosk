@@ -1,0 +1,14 @@
+uuid: d416b5a1-c9ec-4e4e-85d9-b395db2e1729
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.vista
+  module:
+    - user
+id: user_remove_role_action.vista
+label: 'Remove the VISTA role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: vista

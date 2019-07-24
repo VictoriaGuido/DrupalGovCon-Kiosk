@@ -1,0 +1,14 @@
+uuid: 0d7617e8-e53a-4b7e-8a40-ebc26b70bf57
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.standard_services_provider
+  module:
+    - user
+id: user_add_role_action.standard_services_provider
+label: 'Add the Standard Services Provider role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: standard_services_provider

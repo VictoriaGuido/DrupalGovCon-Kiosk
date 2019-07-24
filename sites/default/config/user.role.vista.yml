@@ -1,0 +1,9 @@
+uuid: df723a60-436d-41aa-8804-b0c2fbe7d749
+langcode: en
+status: true
+dependencies: {  }
+id: vista
+label: VISTA
+weight: 7
+is_admin: null
+permissions: {  }

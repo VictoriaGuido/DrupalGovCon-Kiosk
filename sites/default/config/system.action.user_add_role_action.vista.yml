@@ -1,0 +1,14 @@
+uuid: 40b89aa6-95b4-4340-8a12-2bbaa9d43a74
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.vista
+  module:
+    - user
+id: user_add_role_action.vista
+label: 'Add the VISTA role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: vista

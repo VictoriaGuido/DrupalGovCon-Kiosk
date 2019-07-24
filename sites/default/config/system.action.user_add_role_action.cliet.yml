@@ -1,0 +1,14 @@
+uuid: a57887b8-2a7a-4395-a7c1-524d0b2cc2a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.cliet
+  module:
+    - user
+id: user_add_role_action.cliet
+label: 'Add the Client role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: cliet

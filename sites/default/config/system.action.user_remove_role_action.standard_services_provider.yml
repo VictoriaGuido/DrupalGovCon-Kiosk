@@ -1,0 +1,14 @@
+uuid: 518b3455-ee10-480c-9868-40fd84664e81
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.standard_services_provider
+  module:
+    - user
+id: user_remove_role_action.standard_services_provider
+label: 'Remove the Standard Services Provider role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: standard_services_provider
