@@ -41,7 +41,7 @@ Any basic vanilla Drupal 8 environment is acceptable for development.
 
 ## AWS API Configuration
 ### 1. Rendering kiosk reports (GET)
-Endpoint- https://6i64lmzix2.execute-api.us-east-1.amazonaws.com/sample/sample-kiosk-reports/Service%20Provider%20Reports%2F<Service%20Provider%203%20Check-In%20Kiosk%20Report.xlsx>
+Endpoint- Provided in Slack
 
 Authorization-
 Access key: Provided in Slack
