@@ -45,11 +45,8 @@ Endpoint- https://6i64lmzix2.execute-api.us-east-1.amazonaws.com/sample/sample-k
 
 Authorization-
 Access key: Provided in Slack
-
 Secret key: Provided in Slack
-
 Region: us-east-1
-
 Service: execute-api
 
 Headers-
