@@ -50,7 +50,7 @@ Region: us-east-1
 Service: execute-api
 
 Headers-
-Host: 6i64lmzix2.execute-api.us-east-1.amazonaws.com
+Host: Provided in Slack
 Content-Type: application/json
 Accept: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
 
