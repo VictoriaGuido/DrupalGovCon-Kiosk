@@ -4,6 +4,22 @@ This repository is intended for building the functionalities in Drupal8 for two 
 ## Pre-requisites:
 Moderate or expert Drupal 8 knowledge involving experience with Drupal modules, PHP, Drupal API and React. This module will be built with Drupal 8 methods (all of the logic and functionality). 
 
+## Goals for Drupal Gov Con
+The team developed the following goals for Thursday
+
+### Short Term 2 Hours
+- Content Type, User and Org
+- Set Up S3FS
+- Sample JSON object
+- Update Architecture Diagram
+
+### Medium Term 4 Hours
+- Create Post API custom module
+- Set up views and permissions for org files
+
+### Long Term 6 Hours
+- API Auth
+
 ## Architectural Overview
 HopeOneSource consists of many technological systems, among which are the Drupal and Python app running on AWS (Cloud). Currently, these systems operate independently:
 - The Drupal environment handles user profiles (Service Providers/Clients/others) and functionality modules
