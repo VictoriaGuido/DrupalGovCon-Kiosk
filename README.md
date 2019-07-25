@@ -41,21 +41,7 @@ Any basic vanilla Drupal 8 environment is acceptable for development.
 
 ## AWS API Configuration
 ### 1. Rendering kiosk reports (GET)
-Endpoint- Provided in Slack
-
-Authorization-
-Access key: Provided in Slack
-Secret key: Provided in Slack
-Region: us-east-1
-Service: execute-api
-
-Headers-
-Host: Provided in Slack
-Content-Type: application/json
-Accept: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
-
-X-Amz-Date: 20190725T094809Z
-Authorization: AWS4-HMAC-SHA256 Credential=AKIAVTUU6QLUHXJOHW6U/20190725/us-east-1/execute-api/aws4_request, SignedHeaders=accept;cache-control;content-type;host;postman-token;x-amz-date, Signature=5c5cb92b3691c0bb068f7257249dd3a6015b6ea5d8e1cae0172fc37ca8c16bd1
+Endpoint, Authorization and Headers- Provided in Slack
 
 #### Sample code:
 require 'vendor/autoload.php';
