@@ -5,7 +5,7 @@ This repository is intended for building the functionalities in Drupal8 for two 
 Moderate or expert Drupal 8 knowledge involving experience with Drupal modules, PHP, Drupal API and React. This module will be built with Drupal 8 methods (all of the logic and functionality). 
 
 ## Architectural Overview
-HopeOneSource consists of many technological systems, among which are the Drupal 7 and Python app running on AWS (Cloud). Currently, these systems operate independently:
+HopeOneSource consists of many technological systems, among which are the Drupal and Python app running on AWS (Cloud). Currently, these systems operate independently:
 - The Drupal environment handles user profiles (Service Providers/Clients/others) and functionality modules
 - The Python app handles the check-in kiosk operations, including data ingestion, manipulation, reporting and file sharing.
 
