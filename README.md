@@ -44,8 +44,8 @@ Any basic vanilla Drupal 8 environment is acceptable for development.
 Endpoint- https://6i64lmzix2.execute-api.us-east-1.amazonaws.com/sample/sample-kiosk-reports/Service%20Provider%20Reports%2F<Service%20Provider%203%20Check-In%20Kiosk%20Report.xlsx>
 
 Authorization-
-Access key: AKIAVTUU6QLUHXJOHW6U
-Secret key: Xqr9mbS0agOCabwDQPQXNQ6AhE3D8FPg9xcTfDZ6
+Access key: Provided in Slack
+Secret key: Provided in Slack
 Region: us-east-1
 Service: execute-api
 
